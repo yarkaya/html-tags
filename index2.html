@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <main style="width:57rem; margin:auto; background-color:#97C5A3;">
+        <header>
+            <h1 style="text-align:center;">How much do you really love dogs? Ask yourself.</h1>
+        </header>
+        
+    <section>
+        <form method="POST" action="https://formspree.io/yarkasorochuk@gmail.com" target="_top">
+            <fieldset>
+                <legend>Personal information</legend>
+                    <label>First name:<br>
+                        <input type="text" name="first-name" required><br>
+                    </label>
+                    <label>Last name:<br>
+                        <input type="text" name="last-name" required><br>
+                    </label>
+                    <label> E-mail: <br>
+                        <input type="email" name="e-mail" required>
+                    </label>
+            </fieldset> <br>
+            <fieldset>
+                <legend>Questions block</legend>
+                    <label>Question 1: <br>
+                        <input type="radio" name="question1" value="item1">item1 <br>
+                        <input type="radio" name="question1" value="item2">item1 <br>
+                        <input type="radio" name="question1" value="item3">item1 <br>
+                    </label>
+                Question 2:<br>
+                <select name="question2" size="2">
+                    <option value="item1">item1</option>
+                    <option value="item2">item2</option>
+                    <option value="item3">item3</option>
+                    <option value="item4">item4</option>
+                </select> <br>
+                Question 3: <br>
+                <select name="question2" size ="3" multiple>
+                    <option value="item1">item1</option>
+                    <option value="item2">item2</option>
+                    <option value="item3">item3</option>
+                    <option value="item4">item4</option>
+                </select> <br>
+                Question 4: <br>
+                <input list="browsers" name="browser">
+                <datalist id="browsers">
+                    <option value="Internet Explorer">
+                        <option value="Firefox">
+                        <option value="Chrome">
+                        <option value="Opera">
+                        <option value="Safari">
+                </datalist> <br>
+                Ouestion 5: <br>
+                <select>
+                    <optgroup label="items">
+                        <option value="item1">item1</option>
+                        <option value="item2">item2</option>
+                        <option value="item3">item3</option>
+                        <option value="item4">item4</option>
+                    </optgroup>
+                    <optgroup label="item">
+                        <option value="item1">item1</option>
+                        <option value="item2">item2</option>
+                        <option value="item3">item3</option>
+                        <option value="item4">item4</option>
+                    </optgroup>
+                </select> <br>
+                Question 6<br>
+                    <input type="checkbox" name="pets" value="dog">I have a dog <br>
+                    <input type="checkbox" name="pets" value="cat">I have a cat <br>
+                    <input type="checkbox" name="pets" value="nopet">I have no pets <br>
+            </fieldset> <br>
+            <fieldset> 
+                    <legend>Open question</legend>
+                <textarea name="question5" rows="10" cols="30" required></textarea>
+            </fieldset> <br>
+            <fieldset>
+                Choose the date: <br>
+                <input type="datetime-local" name="date"> <br> <br>
+                <input type="submit" name="submit" value="send" style="width:70px; height:30px;">
+            </fieldset> 
+            
+        </form>
+            
+    </section>
+    </main>
+    
+</body>
+</html>
